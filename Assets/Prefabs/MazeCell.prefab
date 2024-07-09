@@ -254,6 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6137187173110687761}
+  - component: {fileID: 3178532639248556007}
   m_Layer: 0
   m_Name: MazeCell
   m_TagString: Untagged
@@ -281,6 +282,23 @@ Transform:
   - {fileID: 6670421060911480843}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3178532639248556007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555593519331362951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d780345bb6d1bb74189bec3b3a5ce6a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftWall: {fileID: 4265277161723025515}
+  rightWall: {fileID: 793803967764741619}
+  frontWall: {fileID: 6551808109851284312}
+  backWall: {fileID: 8698185823153503128}
+  unvisitedBlock: {fileID: 4415191002889317861}
 --- !u!1 &6530891057319675742
 GameObject:
   m_ObjectHideFlags: 0
